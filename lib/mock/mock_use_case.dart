@@ -2,6 +2,7 @@ import 'package:data_layer_base/mock/mock_repository.dart';
 import 'package:data_layer_base/mock/mock_request.dart';
 import 'package:data_layer_base/mock/mock_response.dart';
 import 'package:domain_layer_base/base/base_use_case.dart';
+import 'package:domain_layer_base/base/single_use_case.dart';
 import 'package:domain_layer_base/interfaces/interface_use_case_listener.dart';
 
 class MockUseCase
