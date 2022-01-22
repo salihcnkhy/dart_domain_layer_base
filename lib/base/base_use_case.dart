@@ -16,7 +16,5 @@ abstract class BaseUseCase<Request, Response, Repository> {
     _useCaseListener?.onPostExecute();
   }
 
-  Future<Response> createUseCase(Request request);
+  Future<Response?> createUseCase(Request request);
 }
-
-

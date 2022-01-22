@@ -15,7 +15,7 @@ void main() {
   final request = MockRequest(email: "test@test.com", password: "123456");
   test('success response', () async {
     final data = await useCase.execute(request);
-    expect(true, data?.isSuccess ?? false);
+    expect(true, data.isSuccess);
     print(data);
   });
 }
